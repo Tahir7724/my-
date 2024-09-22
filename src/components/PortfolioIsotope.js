@@ -212,8 +212,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                   
+Completed telemedicine app design with wireframes, prototypes, user testing, and final UI/UX for seamless healthcare interactions.
                   </p>
                 </div>
                 <Link legacyBehavior href="#">
