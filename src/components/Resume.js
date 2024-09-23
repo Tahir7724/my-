@@ -17,6 +17,22 @@ const educationData = [
     startYear: "2023",
     endYear: false,
   },
+  {
+    id: 2,
+    title: "AWS Essetionals",
+    academy: "Coursera", 
+    dec: "The AWS Essentials course covers foundational cloud concepts, key AWS services, security, and pricing, empowering participants to leverage cloud computing.",
+    startYear: "2024",
+    endYear: false,
+  },
+  {
+    id: 2,
+    title: "Data Analytics - Michigin University",
+    academy: "Coursera", 
+    dec: "The Data Analytics course by Michigan University on Coursera teaches data-driven decision-making, covering statistical analysis, data visualization, and machine learning.",
+    startYear: "2024",
+    endYear: false,
+  },
  
 ];
 
@@ -204,7 +220,7 @@ const Resume = () => {
                   </div>
                 ))}
               </div>
-              <div className="bts pt-2 pb-5">
+              {/* <div className="bts pt-2 pb-5">
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
@@ -213,7 +229,7 @@ const Resume = () => {
                     <span>Download CV</span>
                   </a>
                   
-                </div>
+                </div> */}
             </div>
           </div>
           <div className="lui-bgtitle">
