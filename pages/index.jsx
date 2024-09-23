@@ -176,28 +176,30 @@ principles and a commitment to staying abreast of the latest industry trends.
           </div>
         </div>
         {/* Services */}
+
         <div className="v-line v-line-right">
           <div className="container">
-            <Swiper
-              {...servicesSliderProps}
-              className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <SwiperSlide className="swiper-slide">
+            
+          <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
                 <div className="services-item">
-                <div className="service-icon">
-                   <img src="assets/images/icons/search.png" alt="" />
+                  <div className="service-icon">
+                   <img src="assets/images/icons/ux.png" alt="" />
                   </div>
+
                   {/* <div className="icon" /> */}
                   <h5 className="lui-title">
-                    <span> Research </span>
+                    <span> UI UX Design </span>
                   </h5>
+
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Conducted in-depth analysis of user behavior to extract actionable insights, driving strategic and impactful design solutions that elevate user experiences.{" "}
+                      UI/UX design for Mobile app & Websites  focused on creating intuitive, user-centered interfaces that enhance user experience and business outcomes.
+                                            {" "}
                     </div>
                   </div>
+
                   {/* <a href="#pricing-section" className="lnk">
                     {" "}
                     See Pricing{" "}
@@ -209,19 +211,20 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
+              </div>   
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">      
+              <div className="services-item">
                 <div className="service-icon">
-                   <img src="assets/images/icons/smartphone.png" alt="" />
+                   <img src="assets/images/icons/web.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> UI Design </span>
+                    <span> Website Development </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       <p>
-                      Transforming ideas into visually powerful, intuitive, and user-centered designs that drive engagement and deliver impactful solutions.
+                      By building responsive, high-performing websites with clean code, optimized user experience, and modern technologies.
                       </p>
                     </div>
                   </div>
@@ -236,20 +239,20 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
+              </div>  
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
+                <div className="services-item services-item-card">
                 <div className="service-icon">
-                   <img src="assets/images/icons/document.png" alt="" />
+                   <img src="assets/images/icons/app.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Usability  & Heuristic Analysis</span>
+                    <span> Mobile Development</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Quickly identify usability issues and boost product efficiency with expert evaluations and audits
-                      .{" "}
+                      By Creating user-friendly, responsive apps with seamless performance across iOS and Android platforms using modern technologies.                      .{" "}
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -263,30 +266,21 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </SwiperSlide>
-
-              {/* <div className="swiper-pagination" /> */}
-            </Swiper>
-            <Swiper
-              {...servicesSliderProps}
-              className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <SwiperSlide className="swiper-slide">
+              </div>
+         
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">     
                 <div className="services-item">
                   {/* <div className="icon" /> */}
                   <div className="service-icon">
-                   <img src="assets/images/icons/light.png" alt="" />
+                   <img src="assets/images/icons/data.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Design Thinking </span>
+                    <span> Data Analyst - ML </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      
-
-Ignite innovation with dynamic, collaborative problem-solving sessions that transform ideas into impactful solutions through structured, creative thinking
+                      I offer data analytics services using machine learning to uncover insights, optimize decision-making, and drive data-driven business strategies.
                       .{" "}
                     </div>
                   </div>
@@ -301,19 +295,21 @@ Ignite innovation with dynamic, collaborative problem-solving sessions that tran
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+                </div> 
+             
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                 <div className="service-icon">
-                   <img src="assets/images/icons/apps.png" alt="" />
+                   <img src="assets/images/icons/mdi_aws.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Design Systems </span>
+                    <span> AWS Infrastructre </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       <p>
-                      Crafted a robust design system in Figma, integrating scalable tokens and reusable components to ensure consistency and efficiency across projects.</p>
+                      AWS infrastructure services, designing scalable, secure cloud solutions using best practices in automation, networking, and cost optimization..</p>
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -327,19 +323,20 @@ Ignite innovation with dynamic, collaborative problem-solving sessions that tran
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              </div>
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                   <div className="service-icon">
-                   <img src="assets/images/icons/reservation-smartphone.png" alt="" />
+                   <img src="assets/images/icons/design.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span>Usability Testing</span>
+                    <span>Branding</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Optimize designs with precise usability testing and rapid prototyping for seamless, user-centric experiences
+                      creating compelling brand identities that resonate with audiences through cohesive visual design and strategic messaging.
 
                       .{" "}
                     </div>
@@ -355,14 +352,15 @@ Ignite innovation with dynamic, collaborative problem-solving sessions that tran
                     }}
                   />
                 </div>
-              </SwiperSlide>
-
-             </Swiper>
+              </div>
+           </div>
+              
             <div className="lui-bgtitle">
               <span> Services </span>
-            </div>
+            </div> 
           </div>
         </div>
+       
       </section>
 
       {/* Section - Skills */}
