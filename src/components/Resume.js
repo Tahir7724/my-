@@ -47,14 +47,22 @@ const experienceData = [
   },
   {
     id: 2,
-    title: "UI UX Designer (Freelancer)",
+    title: "AWS Architect (Freelancer)",
     company: "Freelancer  (Part-time)",
-    dec: "As a UI/UX designer, I create intuitive and engaging interfaces for mobile apps, websites, dashboards, and landing pages, focusing on user-centric design. I collaborate with clients, conduct user research, and develop wireframes and prototypes. I ensure usability, accessibility, and brand consistency while working closely with developers and managing multiple projects. I stay updated on industry trends to deliver innovative and high-quality design solutions.",
+    dec: "I design an AWS architecture and deploy React applications using scalable, secure AWS services like S3, CloudFront, and Lambda. This includes optimizing for performance, setting up continuous integration/continuous deployment (CI/CD) pipelines, and ensuring seamless scalability and availability across AWS infrastructure.",
     startYear: " Aug 2018 ",
     endYear: "present",
   },
   {
     id: 3,
+    title: "Data analytics (Freelancer)",
+    company: "Freelancer  (Part-time)",
+    dec: "In my role as a data analyst using machine learning, I leverage algorithms like SVM, Naive Bayes, and XGBoost to build predictive models. I deploy these models to extract actionable insights from data, enabling data-driven decision-making that enhances business strategies and outcomes. My focus is on data preprocessing, feature engineering, and evaluating model performance for optimal results.",
+    startYear: " Aug 2018 ",
+    endYear: "present",
+  },
+  {
+    id: 4,
     title: "Sr. UI UX Designer (Saudi Arabia)",
     company: " CANV.sa  - Project Baesd",
     dec: "Led the re-design of the CANV auction website, emphasizing intuitive user experiences and efficient workflows. Collaborated with stakeholders to define objectives and requirements, conducted user research, and analyzed competitors. Used Figma to create the design system, components, variables, and UI design for the project.",
@@ -63,7 +71,7 @@ const experienceData = [
   },
   ,
   {
-    id: 4,
+    id: 5,
     title: "UI UX Designer (Saudi Arabia)",
     company: "SITCO",
     dec: "Collaborated with stakeholders on the truck delivery service mobile app to align business objectives, user needs, and technical requirements. Conducted user research, created personas, flows, and wireframes, and designed intuitive interfaces ensuring brand consistency. Developed interactive prototypes and conducted usability testing to refine the user experience. Worked with developers for smooth implementation and stayed current on industry trends to enhance app features. Contributed insights to product strategy, focusing on seamless scheduling, real-time tracking, and efficient communication.",
@@ -72,7 +80,7 @@ const experienceData = [
   },
   ,
   {
-    id: 5,
+    id: 6,
     title: "UX Designer (Sudan)",
     company: " Programming Nucleus for Information Technology",
     dec: "Led the design of mobile delivery apps, focusing on intuitive user experiences and efficient workflows. Collaborated with stakeholders to define objectives and requirements, conducted user research, and validated design decisions through usability testing. Created wireframes, user flows, and prototypes, designed interfaces for ease of use and accessibility, and ensured seamless implementation with developers. Continuously improved usability based on user feedback and analytics.",
