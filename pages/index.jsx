@@ -364,8 +364,8 @@ principles and a commitment to staying abreast of the latest industry trends.
       </section>
 
       {/* Section - Skills */}
-      <section className="lui-section lui-gradient-center" id="skills-section">
-        {/* Heading */}
+      {/* <section className="lui-section lui-gradient-center" id="skills-section">
+      
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
@@ -391,8 +391,7 @@ principles and a commitment to staying abreast of the latest industry trends.
               <p>Explore a range of services tailored to elevate your project. From UX/UI design and research to information architecture and prototyping</p>
             </div>
           </div>
-        </div>
-        {/* Skills */}
+        </div> 
         <div className="v-line v-line-left">
           <div className="container">
             <div className="row">
@@ -545,9 +544,8 @@ principles and a commitment to staying abreast of the latest industry trends.
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Section - Works */}
+      </section> */}
+ 
       <section className="lui-section lui-gradient-top" id="works-section">
         {/* Heading */}
         <div className="lui-heading">
@@ -582,17 +580,13 @@ principles and a commitment to staying abreast of the latest industry trends.
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Section - Resume */}
-      <Resume />
-      {/* Section - Testimonials */}
+      </section> 
+      <Resume /> 
       
   
-     
-      {/* Section - Contacts */}
+      
       <section className="lui-section lui-gradient-bottom pt-5" id="contact-section">
-        {/* Heading */}
+      
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
