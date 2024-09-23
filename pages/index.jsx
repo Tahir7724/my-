@@ -54,10 +54,12 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                    With over 6 years of experience in the tech industry, I deliver powerful solutions in UI/UX design,
-                     Web and Mobile development, Data Analytics using Machine Learning (ML), and AWS infrastructure. 
-                     My expertise lies in creating intuitive, user-centered digital experiences, deploying scalable applications, 
-                    and leveraging branding strategies that drive business growth, all while staying ahead of industry trends.
+                    Hello, my name is ALTAHIR Ibrahim, and I am a Senior UI/UX Designer with over 6 years of experience in the tech industry.
+                     I specialize in delivering powerful solutions across UI/UX design, web and mobile development, data analytics using machine
+                      learning (ML), and AWS infrastructure. My expertise lies in crafting intuitive, user-centered digital 
+                      experiences, deploying scalable applications, and leveraging branding strategies that drive business growth.
+                       I build responsive websites and user-friendly mobile apps, provide data-driven insights through ML analytics, 
+                       design secure AWS solutions, and create compelling brand identities that resonate with audiences.
                     </p>
                   </div>
                   <div className="social-links">
