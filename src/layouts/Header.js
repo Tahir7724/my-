@@ -123,7 +123,7 @@ const Header = () => {
                                 Services
                               </a>
                             </li>
-                            <li className="menu-item">
+                            {/* <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
@@ -132,7 +132,7 @@ const Header = () => {
                               >
                                 Skills
                               </a>
-                            </li>
+                            </li> */}
                             <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"

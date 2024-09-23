@@ -77,7 +77,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                 </a>
                   </div>
                 </div>
-                <div className="bts">
+                {/* <div className="bts">
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
@@ -89,7 +89,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                     {" "}
                     My Skills{" "}
                   </a>
-                </div>
+                </div> */}
               </div>
               <div
                 className="slide scrolla-element-anim-1 scroll-animate"
