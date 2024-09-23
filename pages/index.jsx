@@ -54,7 +54,7 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                    Hello, my name is ALTAHIR Ibrahim, and I am a Senior UI/UX Designer with over 6 years of experience in the tech industry.
+                    Hello, my name is ALTAHIR Ibrahim, and I'm in the tech industry for over 8 years.
                      I specialize in delivering powerful solutions across UI/UX design, web and mobile development, data analytics using machine
                       learning (ML), and AWS infrastructure. My expertise lies in crafting intuitive, user-centered digital 
                       experiences, deploying scalable applications, and leveraging branding strategies that drive business growth.
