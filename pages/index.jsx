@@ -54,10 +54,10 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                      With over 6 years of experience as a seasoned UI/UX designer, I've honed my craft in creating
-digital experiences that not only look great but feel intuitive and satisfying for users. Throughout
-every stage of the design process, I'm guided by a deep understanding of user-centered
-principles and a commitment to staying abreast of the latest industry trends.
+                    With over 6 years of experience in the tech industry, I deliver powerful solutions in UI/UX design,
+                     Web and Mobile development, Data Analytics using Machine Learning (ML), and AWS infrastructure. 
+                     My expertise lies in creating intuitive, user-centered digital experiences, deploying scalable applications, 
+                    and leveraging branding strategies that drive business growth, all while staying ahead of industry trends.
                     </p>
                   </div>
                   <div className="social-links">
