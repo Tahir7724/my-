@@ -89,7 +89,7 @@ const experienceData = [
   },
   ,
   {
-    id: 6,
+    id: 7,
     title: "UI UX Designer | Graphics Designer",
     company: "Luxury Technology",
     dec: "Collaborated with product managers, marketing teams, and developers to create intuitive app interfaces and visual graphics. Designed wireframes, user flows, and prototypes, developed branding elements, and implemented responsive design for consistency across devices. Conducted usability testing to refine the interface and stayed updated on industry trends to incorporate innovative design techniques.",
