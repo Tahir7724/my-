@@ -54,12 +54,10 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                    Hello, my name is ALTAHIR Ibrahim, and I'm in the tech industry for over 8 years.
-                     I specialize in delivering powerful solutions across UI/UX design, web and mobile development, data analytics using machine
-                      learning (ML), and AWS infrastructure. My expertise lies in crafting intuitive, user-centered digital 
-                      experiences, deploying scalable applications, and leveraging branding strategies that drive business growth.
-                       I build responsive websites and user-friendly mobile apps, provide data-driven insights through ML analytics, 
-                       design secure AWS solutions, and create compelling brand identities that resonate with audiences.
+                      With over 6 years of experience as a seasoned UI/UX designer, I've honed my craft in creating
+digital experiences that not only look great but feel intuitive and satisfying for users. Throughout
+every stage of the design process, I'm guided by a deep understanding of user-centered
+principles and a commitment to staying abreast of the latest industry trends.
                     </p>
                   </div>
                   <div className="social-links">
@@ -79,7 +77,7 @@ const Index = () => {
                 </a>
                   </div>
                 </div>
-                {/* <div className="bts">
+                <div className="bts">
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
@@ -91,7 +89,7 @@ const Index = () => {
                     {" "}
                     My Skills{" "}
                   </a>
-                </div> */}
+                </div>
               </div>
               <div
                 className="slide scrolla-element-anim-1 scroll-animate"
@@ -186,19 +184,18 @@ const Index = () => {
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
                 <div className="services-item">
                   <div className="service-icon">
-                   <img src="assets/images/icons/ux.png" alt="" />
+                   <img src="assets/images/icons/search.png" alt="" />
                   </div>
 
                   {/* <div className="icon" /> */}
                   <h5 className="lui-title">
-                    <span> UI UX Design </span>
+                    <span> Research </span>
                   </h5>
 
                   <div className="lui-text">
                     <div>
                       {" "}
-                      UI/UX design for Mobile app & Websites  focused on creating intuitive, user-centered interfaces that enhance user experience and business outcomes.
-                                            {" "}
+                      Conducted in-depth analysis of user behavior to extract actionable insights, driving strategic and impactful design solutions.{" "}
                     </div>
                   </div>
 
@@ -218,15 +215,15 @@ const Index = () => {
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">      
               <div className="services-item">
                 <div className="service-icon">
-                   <img src="assets/images/icons/web.png" alt="" />
+                   <img src="assets/images/icons/smartphone.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Website Development </span>
+                    <span> UI Design </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       <p>
-                      By building responsive, high-performing websites with clean code, optimized user experience, and modern technologies.
+                      Transforming ideas into visually powerful, intuitive, and user-centered designs that drive engagement and deliver impactful solutions.
                       </p>
                     </div>
                   </div>
@@ -246,15 +243,16 @@ const Index = () => {
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
                 <div className="services-item services-item-card">
                 <div className="service-icon">
-                   <img src="assets/images/icons/app.png" alt="" />
+                   <img src="assets/images/icons/document.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Mobile Development</span>
+                    <span> Usability Testing</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      By Creating user-friendly, responsive apps with seamless performance across iOS and Android platforms using modern technologies.                      .{" "}
+                      Quickly identify usability issues and boost product efficiency with expert evaluations and audits
+                      .{" "}
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -274,15 +272,17 @@ const Index = () => {
                 <div className="services-item">
                   {/* <div className="icon" /> */}
                   <div className="service-icon">
-                   <img src="assets/images/icons/data.png" alt="" />
+                   <img src="assets/images/icons/light.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Data Analyst - ML </span>
+                    <span> Design Thinking </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      I offer data analytics services using machine learning to uncover insights, optimize decision-making, and drive data-driven business strategies.
+                      
+
+                  Ignite innovation with dynamic, collaborative problem-solving sessions that transform ideas into impactful solutions through structured, creative thinking
                       .{" "}
                     </div>
                   </div>
@@ -303,15 +303,15 @@ const Index = () => {
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                 <div className="service-icon">
-                   <img src="assets/images/icons/mdi_aws.png" alt="" />
+                   <img src="assets/images/icons/apps.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> AWS Infrastructre </span>
+                    <span> Design Systems </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       <p>
-                      AWS infrastructure services, designing scalable, secure cloud solutions using best practices in automation, networking, and cost optimization..</p>
+                      Crafted a robust design system in Figma, integrating scalable tokens and reusable components to ensure consistency and efficiency across projects.</p>
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -330,15 +330,15 @@ const Index = () => {
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                   <div className="service-icon">
-                   <img src="assets/images/icons/design.png" alt="" />
+                   <img src="assets/images/icons/reservation-smartphone.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span>Branding</span>
+                    <span>Usability Testing</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      creating compelling brand identities that resonate with audiences through cohesive visual design and strategic messaging.
+                      Optimize designs with precise usability testing and rapid prototyping for seamless, user-centric experiences
 
                       .{" "}
                     </div>
@@ -366,8 +366,8 @@ const Index = () => {
       </section>
 
       {/* Section - Skills */}
-      {/* <section className="lui-section lui-gradient-center" id="skills-section">
-      
+      <section className="lui-section lui-gradient-center" id="skills-section">
+        {/* Heading */}
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
@@ -393,7 +393,8 @@ const Index = () => {
               <p>Explore a range of services tailored to elevate your project. From UX/UI design and research to information architecture and prototyping</p>
             </div>
           </div>
-        </div> 
+        </div>
+        {/* Skills */}
         <div className="v-line v-line-left">
           <div className="container">
             <div className="row">
@@ -546,8 +547,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
- 
+      </section>
+
+      {/* Section - Works */}
       <section className="lui-section lui-gradient-top" id="works-section">
         {/* Heading */}
         <div className="lui-heading">
@@ -582,13 +584,17 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> 
-      <Resume /> 
+      </section>
+
+      {/* Section - Resume */}
+      <Resume />
+      {/* Section - Testimonials */}
       
   
-      
+     
+      {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom pt-5" id="contact-section">
-      
+        {/* Heading */}
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
