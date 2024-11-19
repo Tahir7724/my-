@@ -53,11 +53,15 @@ const Index = () => {
                 </div>
                 <div className="description">
                   <div>
-                    <p>
+                    {/* <p>
                       With over 6 years of experience as a seasoned UI/UX designer, I've honed my craft in creating
 digital experiences that not only look great but feel intuitive and satisfying for users. Throughout
 every stage of the design process, I'm guided by a deep understanding of user-centered
 principles and a commitment to staying abreast of the latest industry trends.
+                    </p> */}
+                    <p>
+                    I'm a versatile tech enthusiast with experience in web development using React JS, UI/UX design, and cloud computing through AWS and Terraform . Skilled in AI/ML , Data Analysis and Mining, I enjoy turning ideas into impactful digital experiences. Passionate about continuous learning, I’ve honed my expertise through hands-on projects and certifications from platforms like Coursera.
+                    I enjoy sharing my knowledge through tutoring and empowering others and keep them closer to the new era of technologies.
                     </p>
                   </div>
                   <div className="social-links">
@@ -77,7 +81,8 @@ principles and a commitment to staying abreast of the latest industry trends.
                 </a>
                   </div>
                 </div>
-                <div className="bts">
+               {/* CV link */}
+                {/* <div className="bts">
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
@@ -89,7 +94,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                     {" "}
                     My Skills{" "}
                   </a>
-                </div>
+                </div> */}
               </div>
               <div
                 className="slide scrolla-element-anim-1 scroll-animate"
@@ -123,14 +128,14 @@ principles and a commitment to staying abreast of the latest industry trends.
                   <ul>
                     <li>
                       <span className="num">
-                        +6 <strong>+</strong>
+                        +9 <strong>+</strong>
                       </span>
                       <span className="value">
                         Years of <strong>Experience</strong>
                       </span>
                     </li>
                     <li>
-                      <span className="num">16</span>
+                      <span className="num">34</span>
                       <span className="value">
                         Completed <strong> Freelance Projects</strong>
                       </span>
@@ -184,18 +189,18 @@ principles and a commitment to staying abreast of the latest industry trends.
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
                 <div className="services-item">
                   <div className="service-icon">
-                   <img src="assets/images/icons/search.png" alt="" />
+                   <img src="assets/images/icons/web.png" alt="" />
                   </div>
 
                   {/* <div className="icon" /> */}
                   <h5 className="lui-title">
-                    <span> Research </span>
+                    <span> Web Development </span>
                   </h5>
 
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Conducted in-depth analysis of user behavior to extract actionable insights, driving strategic and impactful design solutions.{" "}
+                      Specializing in React JS, creating dynamic, user-friendly applications with clean, efficient code and responsive design.{" "}
                     </div>
                   </div>
 
@@ -215,16 +220,16 @@ principles and a commitment to staying abreast of the latest industry trends.
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">      
               <div className="services-item">
                 <div className="service-icon">
-                   <img src="assets/images/icons/smartphone.png" alt="" />
+                   <img src="assets/images/icons/mdi_aws.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> UI Design </span>
+                    <span> AWS Solutions </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       <p>
-                      Transforming ideas into visually powerful, intuitive, and user-centered designs that drive engagement and deliver impactful solutions.
-                      </p>
+                      Cloud automation services for beginners, specializing in AWS services, Terraform, and Infrastructure as Code (IaC) to streamline cloud management.
+                                            </p>
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -243,15 +248,15 @@ principles and a commitment to staying abreast of the latest industry trends.
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
                 <div className="services-item services-item-card">
                 <div className="service-icon">
-                   <img src="assets/images/icons/document.png" alt="" />
+                   <img src="assets/images/icons/light.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Usability Testing</span>
+                    <span> AI / ML Models</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Quickly identify usability issues and boost product efficiency with expert evaluations and audits
+                      AI/ML model development, Specializing in data analysis, machine learning algorithms, and predictive modeling for impactful solutions.
                       .{" "}
                     </div>
                   </div>
@@ -272,17 +277,15 @@ principles and a commitment to staying abreast of the latest industry trends.
                 <div className="services-item">
                   {/* <div className="icon" /> */}
                   <div className="service-icon">
-                   <img src="assets/images/icons/light.png" alt="" />
+                   <img src="assets/images/icons/ux.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Design Thinking </span>
+                    <span> UI/ UX Design</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      
-
-                  Ignite innovation with dynamic, collaborative problem-solving sessions that transform ideas into impactful solutions through structured, creative thinking
+                      Creating intuitive, user-centered digital experiences across Apps, Websites, Dashboards, and Design systems.
                       .{" "}
                     </div>
                   </div>
@@ -300,7 +303,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                 </div> 
              
 
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
+              {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                 <div className="service-icon">
                    <img src="assets/images/icons/apps.png" alt="" />
@@ -314,10 +317,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                       Crafted a robust design system in Figma, integrating scalable tokens and reusable components to ensure consistency and efficiency across projects.</p>
                     </div>
                   </div>
-                  {/* <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a> */}
+               
                   <div
                     className="image"
                     style={{
@@ -325,9 +325,9 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
+              {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                   <div className="service-icon">
                    <img src="assets/images/icons/reservation-smartphone.png" alt="" />
@@ -343,10 +343,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                       .{" "}
                     </div>
                   </div>
-                  {/* <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a> */}
+                  
                   <div
                     className="image"
                     style={{
@@ -354,7 +351,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </div>
+              </div> */}
            </div>
               
             <div className="lui-bgtitle">

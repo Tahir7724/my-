@@ -3,18 +3,42 @@ import { useState } from "react";
 const educationData = [
   {
     id: 1,
-    title: "BSc - Information Technology",
-    academy: "Cambridge International College",
+    title: "Cambridge International College",
+    academy: " BSc - Information Technology",
     dec: "Studied a comprehensive IT curriculum, focusing on key areas such as AI, ML, DtatMining, HCI,Ssoftware Development, Data Management, and Network Systems..",
     startYear: "2018",
     endYear: "2023",
   },
   {
     id: 2,
-    title: "React JS - Meta",
-    academy: "Coursera", 
+    title: "Coursera ",
+    academy: "React JS - Meta", 
     dec: "The Course provides foundational knowledge on using Meta's tools and platforms, focusing on essential skills for leveraging Meta technologies in various contexts. The course covers the basics of Meta's ecosystem, including setting up and managing Meta products, understanding core functionalities, and applying best practices for effective usage. Ideal for beginners, it equips learners with practical insights and skills to maximize the benefits of Meta's offerings in their projects and professional work.",
     startYear: "2023",
+    endYear: false,
+  },
+  {
+    id: 3,
+    title: "Coursera ",
+    academy: "AWS Cloud Technical Essentials ", 
+    dec: "This content introduces key AWS concepts, covering terminology, security measures, and Identity and Access Management (IAM). It explores AWS compute services like Amazon EC2, AWS Lambda, and Amazon ECS, while also providing an overview of AWS database and storage offerings, including Amazon RDS, DynamoDB, and S3, to build a comprehensive understanding of AWS capabilities.",
+    startYear: "2024",
+    endYear: false,
+  },
+  {
+    id: 4,
+    title: "Coursera ",
+    academy: "Foundations: Data, Data, Everywhere", 
+    dec: "The text covers key data analytics concepts, tools like spreadsheets and visualization, analytical thinking assessment, and the role of data analysts in various jobs.",
+    startYear: "2024",
+    endYear: false,
+  },
+  {
+    id: 5,
+    title: "Coursera ",
+    academy: "Terraform for absolute beginners", 
+    dec: "Gain a foundational understanding of Infrastructure as Code (IaC) and Terraform basics, including HCL language syntax, using variables, and creating resources. Additionally, explore AWS database and storage services such as Amazon RDS, DynamoDB, and S3, focusing on their features and use cases.",
+    startYear: "2024",
     endYear: false,
   },
  
@@ -204,7 +228,8 @@ const Resume = () => {
                   </div>
                 ))}
               </div>
-              <div className="bts pt-2 pb-5">
+              {/* CV */}
+              {/* <div className="bts pt-2 pb-5">
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
@@ -213,7 +238,7 @@ const Resume = () => {
                     <span>Download CV</span>
                   </a>
                   
-                </div>
+                </div> */}
             </div>
           </div>
           <div className="lui-bgtitle">
